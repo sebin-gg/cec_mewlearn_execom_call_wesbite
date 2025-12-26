@@ -1,0 +1,50 @@
+.Topbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+}
+.image img{
+    width:100%;
+    height:auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    border:none;
+    display:block;
+    
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+}
+.heading{
+    text-align:center;
+    font-size:36px;
+    margin-top:20px;
+    color:#ae59ff;
+}
+.AboutUs{
+    padding:40px 50px;
+    max-width:1000px;
+    margin:auto auto;
+    font-size:18px;
+    line-height:1.6;
+    color:#333;
+    align-items: center;
+}
+.gallery img{
+    width:auto;
+    height:auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    border:none;
+    display:block;
+}
