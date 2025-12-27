@@ -6,7 +6,7 @@
     z-index:1000;
 }
 .image img{
-    width:100%;
+    width:100vw;
     height:auto;
     margin:0px;
     padding: 0px;
@@ -36,15 +36,8 @@ body{
     align-items: center;
 }
 .gallery img{
-    width:auto;
-    height:auto;
-    margin-bottom:20px;   
-    align-items: center;
-    max-width: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    width:100%;
+    height:auto;   
     display: block;
     margin:0;
 }
@@ -126,4 +119,10 @@ body{
     text-align: center;
     padding: 5px;
     margin: auto;
+}
+.join-circles img{
+    width:100vw;
+    height:auto;   
+    display: block;
+    margin:0;
 }
