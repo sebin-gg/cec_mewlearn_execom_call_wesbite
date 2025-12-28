@@ -16,26 +16,28 @@
             document.getElementById("lightbox").style.display = "none";
         }
     </script>
- 
+ </head>
+
+<body>
 <header class="topbar">
     <div class="topbar-container">
-        <span class="logo">µLearnCHN</span>
+        <a href="#Home"><span class="logo">µLearnCHN </span></a>
         <nav class="topbar-nav">
             <a href="#about">About</a>
             <a href="#events">Events</a>
             <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-            <a href="https://app.mulearn.org/register">Join µlearn</a>
+            <a href="#team">Team</a>
+            <a href="#contact" >Contact</a>
+            <a href="https://app.mulearn.org/register" target="_blank" class="discord-card">Join µlearn</a>
         </nav>
     </div>
 </header>
-</head>
-<body>
-<section class="image">
+
+<section id ="Home"class="image">
     <img src="img1.jpg" alt="College and µLearn logo">
 </section>
 
-<section class="AboutUs">
+<section id="about" class="AboutUs">
     <h1 class="heading">About Us</h1>
     <p>
         µLearn CHN is a dynamic community powered by GTech, dedicated to fostering growth
@@ -43,9 +45,9 @@
         develop skills, and collaborate on innovative projects.
     </p>
 
-    <h1 class="heading">Our Event Journey</h1>
+    <h1 id ="events" class="heading">Our Event Journey</h1>
 
-    <div class="event-grid">
+    <div  class="event-grid">
         <!-- Event Card -->
         <div class="event-card">
             <img src="event1.webp" alt="Make(Me)² Event">
@@ -119,7 +121,7 @@
     </div>
 </section>
 
-<section class="memories-section">
+<section id ="gallery" class="memories-section">
     <h1 class="heading">Memories</h1>
     <div class="gallery-grid">
         <img src="1.webp" alt="Memory 1" loading="lazy" onclick="openLightbox(this)">
@@ -138,7 +140,7 @@
     <img src="img2.png" alt="Join learning circles">
 </section>
 
-<section class="OurTeam">
+<section id="team"class="OurTeam">
     <h1 class="heading">Our Team</h1>
     <div class="team-grid">
         <div><img src="team1.webp" alt="Team member"><p>Lead Enabler</p></div>
@@ -150,7 +152,7 @@
     </div>
 </section>
 
-<section class="JoinUs">
+<section id ="contact" class="JoinUs">
     <h1 class="heading">Connect with Us</h1>
     <p style="text-align:center;">
         Be part of the µLearn CHN community and stay updated.

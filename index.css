@@ -5,8 +5,8 @@ html, body {
     width: 100%;
     overflow-x: hidden;
 }
-.body
-{
+
+body {
     padding-top: 64px;
 }
 
@@ -41,7 +41,7 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-.topbar-nav {
+.topbar-nav a{
     margin-left: 20px;
     font-size: 16px;
     font-weight: 500;
@@ -265,3 +265,4 @@ h1, p, span, a {
     word-spacing: normal;
     letter-spacing: normal;
 }
+a { word-spacing: normal; }
