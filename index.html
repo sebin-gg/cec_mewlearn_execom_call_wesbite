@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mewlearn chn</title>
+    <script>
+function openLightbox(img) {
+    document.getElementById("lightbox-img").src = img.src;
+    document.getElementById("lightbox").style.display = "flex";
+}
+
+function closeLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+}
+</script>
+
 </head>
 <body>
     <header class="Topbar"></header>
@@ -97,23 +108,85 @@
     </section>
         <section class="Gallery">
             
-            
+                    <section class="memories-section">
                 <h1 class="heading">memories</h1>
+                    <div class="gallery-grid">
+                        <img src="1.webp" alt="memory 1" loading="lazy" onclick="openLightbox(this)">
+                        <img src="2.webp" alt="memory 2" loading="lazy" onclick="openLightbox(this)">
+                        <img src="4.webp" alt="memory 3" loading="lazy" onclick="openLightbox(this)">
+                        <img src="5.webp" alt="memory 4" loading="lazy" onclick="openLightbox(this)">
+                        <img src="6.webp" alt="memory 5" loading="lazy" onclick="openLightbox(this)">
+                        <img src="7.webp" alt="memory 6" loading="lazy" onclick="openLightbox(this)">
+                        <img src="8.webp" alt="memory 7" loading="lazy" onclick="openLightbox(this)">
+                    </div>
+                </section>
+               
             <img src="img3.png" alt="image with college and mewlearn statistics">
             <section class="join-circles">
             <img src="img2.png" alt="image with learning circles join button">
             </section>
         </section>
-        <section class="JoinUs" text-align="center" text-decoration="none" >
-            <h1 class="heading">Join Us</h1>
+        <section class="Our Team" >
+            <h1 class="heading">Our Team</h1>
+            <div class="team-grid">
+                 <div>
+                <img src="team1.webp" alt="team member 1" loading="lazy">
+                <p>Lead Enabler</p>
+
+                <div>
+                <img src="team2.webp" alt="team member 2" loading="lazy">
+                <p>Lead Enabler</p>
+                    </div>
+                <div>
+                <img src="team3.webp" alt="team member 3" loading="lazy">
+                <p>Lead Enabler</p>
+                    </div>
+                <div>
+                <img src="team4.webp" alt="team member 4" loading="lazy">
+                <p>Lead Enabler</p>
+</div>
+                <div>
+                <img src="team5.webp" alt="team member 5" loading="lazy">
+                <p>Lead Enabler</p>
+</div>
+                <div>
+                <img src="team6.webp" alt="team member 6" loading="lazy">
+                <p>Lead Enabler</p>
+
+            </div>
+        </section>
+        <section class="JoinUs" >
+            <h1 class="heading">Connect with us</h1>
             <p align="center">Be part of the µLearn CHN community and stay updated with all our events and workshops</p>
             <div class="discord-card" text-align="center" text-decoration="none">
                 <a href="https://discord.com/invite/DfnDfBhGha" target="_blank" rel="noopener noreferrer">
                     <img src="Discord_logo-.png" alt="Join us on Discord" width="50" height=auto margin-top="16px" />
-                    <span style="color:white;">Join us on Discord</span>
+                    <span style="color:white; display:block; text-decoration:none">Join us on Discord</span>
                 </a>
             </div>
-        </section>
-    
+        </section>   
+        <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+</div>
+
+<section class="ContactUs" >
+    <p class="heading1">µlearn</p>
+    Reach us at <a href="mailto:gtechmulearncec@gmail.com">gtechmulearncec@gmail.com</a></p>
+    <p class ="contacts">
+        <a href="https://mulearn.org/" target="_blank">µLearn</a> 
+        <a href="">Events</a>    
+        <a href="">Gallery</a> 
+        <a href="https://online.fliphtml5.com/egsqr/tlgc/#p=1" target="_blank">Branding</a>
+    </p>
+<p class ="contacts">
+        <a href="https://www.instagram.com/mewlearn_chn/" target="_blank"><img src="instagram.png" alt="Instagram.png" width="20" height="20"> Instagram</a> 
+        <a href="https://www.linkedin.com/company/mewlearn-chn/" target="_blank"><img src="linkedin.png" width="20" height="20"> LinkedIn</a>    
+        <a href="https://www.facebook.com/mewlearn.chn" target="_blank"><img src="facebook.png" alt="Facebook" width="20" height="20"> Facebook</a> 
+        <a href="https://twitter.com/mewlearn_chn" target="_blank"><img src="twitter.png" alt="Twitter" width="20" height="20"> Twitter</a>
+        </p>
+</section>
+<section class="Footer" >
+    <p>© 2025-26 Sebin Mathew. All rights reserved.</p>
+    </section>
 </body>
-</html>w
+</html> 

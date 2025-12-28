@@ -6,7 +6,7 @@
     z-index:1000;
 }
 .image img{
-    width:100vw;
+    width:101vw;
     height:auto;
     margin:0px;
     padding: 0px;
@@ -110,7 +110,7 @@ body{
 }
 .discord-card {
     max-width: 250px;
-    background: #d618e7;
+    background: #ae59ff;
     border-radius: 20px;
     box-shadow: 0 12px 30px rgba(0,0,0,0.12);
     overflow: hidden;
@@ -121,8 +121,98 @@ body{
     margin: auto;
 }
 .join-circles img{
-    width:100vw;
+    width:101vw;
     height:auto;   
     display: block;
     margin:0;
+}
+/* to learn */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+}
+
+/* Lightbox */
+#lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+}
+.join-circles img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.memories-section {
+    padding: 60px 40px;
+    max-width: auto;
+    margin: auto;
+}
+.team-grid {
+      display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.Footer {
+    border-top: 1px solid #ffffff;
+
+    background-color: #ae59ff;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+.ContactUs {
+    border-top: 6px solid #ffffff;
+    background-color: #ae59ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    word-spacing: 8px;
+}
+
+.ContactUs .contacts {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+.ContactUs .heading1 {
+    font-size: 60px;
+    padding:0px;
+    margin: 0px;
+    line-height: 1.2;
+    word-spacing: 8px;
+
 }
