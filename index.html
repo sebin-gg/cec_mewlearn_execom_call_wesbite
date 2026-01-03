@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="index.css">
 
     <script>
+
+        function toggleMenu() {
+        document.getElementById("mobileMenu").classList.toggle("open");
+        }
         function openLightbox(img) {
             document.getElementById("lightbox-img").src = img.src;
             document.getElementById("lightbox").style.display = "flex";
@@ -20,17 +24,22 @@
 
 <body>
 <header class="topbar">
-    <div class="topbar-container">
-        <a href="#Home"><span class="logo">µLearnCHN </span></a>
-        <nav class="topbar-nav">
-            <a href="#about">About</a>
-            <a href="#events">Events</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#team">Team</a>
-            <a href="#contact" >Contact</a>
-            <a href="https://app.mulearn.org/register" target="_blank" class="discord-card">Join µlearn</a>
-        </nav>
-    </div>
+<div class="topbar-container">
+    <a href="#Home"><span class="logo">µLearnCHN</span></a>
+
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+        ☰
+    </button>
+
+    <nav class="topbar-nav" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+        <a href="https://app.mulearn.org/register" target="_blank" class="discord-card">Join µlearn</a>
+    </nav>
+</div>
 </header>
 
 <section id ="Home"class="image">
