@@ -12,9 +12,6 @@
         function toggleMenu() {
         document.getElementById("mobileMenu").classList.toggle("open");
         }
-        function ctoggleMenu() {
-        document.getElementById("mobileMenu").classList.toggle("close");
-        }
         function openLightbox(img) {
             document.getElementById("lightbox-img").src = img.src;
             document.getElementById("lightbox").style.display = "flex";
@@ -35,11 +32,11 @@
     </button>
 
     <nav class="topbar-nav" id="mobileMenu" >
-        <a href="#about" onclick="ctoggleMenu()">About</a>
-        <a href="#events" onclick="ctoggleMenu()">Events</a>
-        <a href="#gallery" onclick="ctoggleMenu()">Gallery</a>
-        <a href="#team" onclick="ctoggleMenu()">Team</a>
-        <a href="#contact" onclick="ctoggleMenu()">Contact</a>
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#events" onclick="toggleMenu()">Events</a>
+        <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+        <a href="#team" onclick="toggleMenu()">Team</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
         <a href="https://app.mulearn.org/register" target="_blank" class="discord-card">Join µlearn</a>
     </nav >
 </div >
