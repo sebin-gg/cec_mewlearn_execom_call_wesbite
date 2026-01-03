@@ -5,13 +5,13 @@
 
 ***Project Description***
 
-*A fully responsive website redesign for µLearn CHN, developed from scratch as part of the GTech µLearn CHN Website Redesign Challenge.*
+*A fully responsive website redesign for µLearn CHN, developed from scratch as part of the GTech µLearn CHN  web dev ig  Execom call task.*
 
 *The project represents the vision, activities, and student community of µLearn CHN using custom-built HTML, CSS, and JavaScript without UI templates or themes.*
 
 * **Task Overview**
 
-  * Website developed as part of the *µLearn CHN Website Redesign Challenge*.
+  * Website developed as part of the *µLearn web dev ig  Execom call task*.
   * Built completely from scratch using core web technologies.
   * Existing µLearn CHN website used only as a conceptual reference, not for code or design.
 
@@ -35,7 +35,7 @@
   * Fixed top navigation bar for smooth section navigation
   * Hero banner highlighting µLearn CHN identity
   * Events section showcasing past initiatives
-  * Image gallery with lightbox interaction
+  * Image gallery with lightbox(fullscreen) interaction
   * Team section outlining key roles
   * Call-to-action sections for joining µLearn and Discord
   * Clean, modular, and readable code structure
