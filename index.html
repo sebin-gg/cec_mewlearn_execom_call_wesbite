@@ -10,10 +10,10 @@
     <script>
 
         function toggleMenu() {
-        document.getElementById("mobileMenu").classList.toggle("open");
+        document.getElementById("mobileMenu").classList.add();
         }
         function ctoggleMenu() {
-        document.getElementById("mobileMenu").classList.toggle("close");
+        document.getElementById("mobileMenu").classList.remove();
         }
         function openLightbox(img) {
             document.getElementById("lightbox-img").src = img.src;
