@@ -1,5 +1,4 @@
 **µLearn CHN Website Redesign**
-* **Submission Details**
 
 * Live Demo: [Webiste](https://sebin-gg.github.io/cec_mewlearn_execom_call_wesbite/)
 * GitHub Repository Link: [Link](https://github.com/sebin-gg/cec_mewlearn_execom_call_wesbite)
