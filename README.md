@@ -59,8 +59,8 @@
 * **File Structure**
 
   * `index.html` – Main website structure and content 
-  * `index.css` – Styling, layout, and responsive design 
-  * `images` – Logos, event images, gallery images, and social media icons
+  * `src/css/index.css` – Styling, layout, and responsive design 
+  * `src/img` – Logos, event images, gallery images, and social media icons
 
 * **Assets & References**
 
