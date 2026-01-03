@@ -66,7 +66,7 @@
 
   * Event images and gallery visuals inspired by µLearn CHN activities
   * Instagram page referenced for event imagery
-  * Official µLearn CHN website referenced only for purpose:
+  * Official µLearn CHN website used  only for reference purpose:
 
     * [https://mulearn-chn.vercel.app/](https://mulearn-chn.vercel.app/)
 
