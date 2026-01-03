@@ -54,7 +54,7 @@
   * No UI frameworks or pre-built templates used
   * No cloning or inspection of existing website code
   * Custom layout, styling, and interactions
-  * Handwritten HTML, CSS, and JavaScript only
+  * Handwritten HTML, CSS, and JavaScript code
 
 * **File Structure**
 
