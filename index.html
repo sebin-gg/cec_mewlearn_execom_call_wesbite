@@ -12,6 +12,9 @@
         function toggleMenu() {
         document.getElementById("mobileMenu").classList.toggle("open");
         }
+        function ctoggleMenu() {
+        document.getElementById("mobileMenu").classList.toggle("close");
+        }
         function openLightbox(img) {
             document.getElementById("lightbox-img").src = img.src;
             document.getElementById("lightbox").style.display = "flex";
@@ -38,9 +41,9 @@
         <a href="#team">Team</a>
         <a href="#contact">Contact</a>
         <a href="https://app.mulearn.org/register" target="_blank" class="discord-card">Join µlearn</a>
-    </nav >
-</div onclick="toggleMenu()">
-</header onclick="toggleMenu()">
+    </nav onclick="ctoggleMenu()">
+</div onclick="ctoggleMenu()">
+</header onclick="ctoggleMenu()">
 
 <section id ="Home"class="image">
     <img src="img1.jpg" alt="College and µLearn logo">
